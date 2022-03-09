@@ -28,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03E4E84E27D917FA00FFD240 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = CHANGELOG.md; path = ../CHANGELOG.md; sourceTree = "<group>"; };
 		32DC0F4B7A4B6247B1CF9E6B /* Pods-SwiftCSSBuilder_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCSSBuilder_Example.release.xcconfig"; path = "Target Support Files/Pods-SwiftCSSBuilder_Example/Pods-SwiftCSSBuilder_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SwiftCSSBuilder_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCSSBuilder_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -135,6 +136,7 @@
 				79B807005A221ED014876788 /* SwiftCSSBuilder.podspec */,
 				BE5481A6E54CD4E938DD9E6C /* README.md */,
 				6A7D5DA95530A9D36299168E /* LICENSE */,
+				03E4E84E27D917FA00FFD240 /* CHANGELOG.md */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
