@@ -23,16 +23,18 @@ You can specify CSS properties by hand or use built in enums to specify CSS prop
 You can even pass UIColor to CSS properties like background-color or UIFonts to CSS property font-family or font-size!
                        DESC
 
-  s.homepage         = 'https://github.com/Marco Siino/SwiftCSSBuilder'
+  s.homepage         = 'https://github.com/marcosiino/SwiftCSSBuilder'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Marco Siino' => 'siino.marco@gmail.com' }
-  s.source           = { :git => 'https://github.com/Marco Siino/SwiftCSSBuilder.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/marcosiino/SwiftCSSBuilder.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'SwiftCSSBuilder/Classes/**/*'
+  
+  s.swift_versions = '5.0'
   
   # s.resource_bundles = {
   #   'SwiftCSSBuilder' => ['SwiftCSSBuilder/Assets/*.png']
