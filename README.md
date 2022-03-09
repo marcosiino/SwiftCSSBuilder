@@ -4,6 +4,14 @@
 [![License](https://img.shields.io/cocoapods/l/SwiftCSSBuilder.svg?style=flat)](https://cocoapods.org/pods/SwiftCSSBuilder)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftCSSBuilder.svg?style=flat)](https://cocoapods.org/pods/SwiftCSSBuilder)
 
+## Installation
+
+### Using CocoaPods
+
+```ruby
+pod 'SwiftCSSBuilder'
+```
+
 ## Basic Usage
 
 With SwiftCSSBuilder you can build Cascading Style Sheets (CSS) by constructing them in swift language. See the following example:
