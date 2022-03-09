@@ -1,0 +1,6 @@
+framework module Pods_SwiftCSSBuilder_Example {
+  umbrella header "Pods-SwiftCSSBuilder_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

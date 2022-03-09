@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06089D352EA7FABA6B46F53603EA10B3 /* Stylesheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2933FB617F45E7E485CAF04460CB0D /* Stylesheet.swift */; };
+		1B9C1F71D42D83CBBB378F2D1E145F39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2B2239CFDB3E493179C7E17B833AD0F8 /* SwiftCSSBuilder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F24B314AD413D560F3AC1D5A85E2B9 /* SwiftCSSBuilder-dummy.m */; };
+		36725745D3F420320075B298DF32F691 /* Pods-SwiftCSSBuilder_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DF8E86986556E0EEC56AD2950FB3C5 /* Pods-SwiftCSSBuilder_Example-dummy.m */; };
+		42709543198F0CEA5AD7FD9C0FD115C7 /* Pods-SwiftCSSBuilder_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 611C346A40FFC5691A180C9110FF68FD /* Pods-SwiftCSSBuilder_Tests-dummy.m */; };
+		4C5CDA0383AF02341E8C045FDE5AF910 /* UIColor+hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BDA7C572B77856D155524F420D25D5 /* UIColor+hex.swift */; };
+		504AA73F9E46183CBA4DFD7D7C53A012 /* Pods-SwiftCSSBuilder_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C0356EDA3CA16E63D40FC61CA92816E /* Pods-SwiftCSSBuilder_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C09CD4DD2C23073E51B2815240B9939 /* Selectors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8E494EC5ABC21190BC3E8F10EB3FE5 /* Selectors.swift */; };
+		6DA5C32325B146FB737CE4385DC99A25 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973298F1EC0B3B05C7686B7278ECDC2D /* Property.swift */; };
+		976FFE11B62F55A5BAD02606489F643A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A49F09D060E430F4908A24D58F511A6E /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058547C9E586D96C494C921CCFA1FBF0 /* Style.swift */; };
+		ACB8A72869C5F522C9311FDCFFE840AE /* Pods-SwiftCSSBuilder_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B86ED41E53C96212EF06191D836A453 /* Pods-SwiftCSSBuilder_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1730F9FDB02D099407937B48CC2FD42 /* SwiftCSSBuilder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9B52961E63E374E08F4E4F7F2AAC920 /* SwiftCSSBuilder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E66A0AE1336B90C62F37248F1EB14961 /* Namespace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2E12C0240D32DE3C0F3C72D98D4059 /* Namespace.swift */; };
+		FC0605841236F34668F0944E1C014FC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C16569821B59302A9FE669AAF5A1C6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBE6D70E8704B4D620A555CAFBEB4BE4;
+			remoteInfo = SwiftCSSBuilder;
+		};
+		E661A3A65B59B9CA777B832715949057 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3EFF09E2D0F65FF3B45B4C981FAE885;
+			remoteInfo = "Pods-SwiftCSSBuilder_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000D39803F7F511B31CFD6F231704F61 /* Pods-SwiftCSSBuilder_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SwiftCSSBuilder_Tests"; path = Pods_SwiftCSSBuilder_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		058547C9E586D96C494C921CCFA1FBF0 /* Style.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Style.swift; path = SwiftCSSBuilder/Classes/Style.swift; sourceTree = "<group>"; };
+		16840769BBB7BFF144442C4F325E88DE /* SwiftCSSBuilder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftCSSBuilder.modulemap; sourceTree = "<group>"; };
+		18F8438AF229874A5382CFDB878D5395 /* Pods-SwiftCSSBuilder_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftCSSBuilder_Example.modulemap"; sourceTree = "<group>"; };
+		202240E05AF3200541CBF5C677427C63 /* Pods-SwiftCSSBuilder_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftCSSBuilder_Tests.modulemap"; sourceTree = "<group>"; };
+		25BDA7C572B77856D155524F420D25D5 /* UIColor+hex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+hex.swift"; path = "SwiftCSSBuilder/Classes/UIColor+hex.swift"; sourceTree = "<group>"; };
+		25F24B314AD413D560F3AC1D5A85E2B9 /* SwiftCSSBuilder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftCSSBuilder-dummy.m"; sourceTree = "<group>"; };
+		288780B310910AF59364DF6CD6766BF3 /* Pods-SwiftCSSBuilder_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftCSSBuilder_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2F8E494EC5ABC21190BC3E8F10EB3FE5 /* Selectors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Selectors.swift; path = SwiftCSSBuilder/Classes/Selectors.swift; sourceTree = "<group>"; };
+		34A60C577CEF15B76A012847C797DEE4 /* Pods-SwiftCSSBuilder_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftCSSBuilder_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3538E69E7748FC79CB17E371D06980F8 /* Pods-SwiftCSSBuilder_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftCSSBuilder_Example.release.xcconfig"; sourceTree = "<group>"; };
+		37E92D127EA52227888C54AE0E62675C /* Pods-SwiftCSSBuilder_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftCSSBuilder_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3A2933FB617F45E7E485CAF04460CB0D /* Stylesheet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stylesheet.swift; path = SwiftCSSBuilder/Classes/Stylesheet.swift; sourceTree = "<group>"; };
+		4B86ED41E53C96212EF06191D836A453 /* Pods-SwiftCSSBuilder_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftCSSBuilder_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4C0356EDA3CA16E63D40FC61CA92816E /* Pods-SwiftCSSBuilder_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftCSSBuilder_Example-umbrella.h"; sourceTree = "<group>"; };
+		4F0548E5CEAE96210F26BE5E5C6EAF2D /* SwiftCSSBuilder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftCSSBuilder.debug.xcconfig; sourceTree = "<group>"; };
+		611C346A40FFC5691A180C9110FF68FD /* Pods-SwiftCSSBuilder_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftCSSBuilder_Tests-dummy.m"; sourceTree = "<group>"; };
+		69447B981E3E1696238DA5B09C06DA25 /* Pods-SwiftCSSBuilder_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftCSSBuilder_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D3A4DAE0EFCE34D8E0BA6C6B7280DDC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6F2E12C0240D32DE3C0F3C72D98D4059 /* Namespace.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Namespace.swift; path = SwiftCSSBuilder/Classes/Namespace.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7555D05E7E0C78CF39B9FB150CFF49CB /* SwiftCSSBuilder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftCSSBuilder-prefix.pch"; sourceTree = "<group>"; };
+		7E8CA1921547BF55498F9AAA26430D6D /* SwiftCSSBuilder-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftCSSBuilder-Info.plist"; sourceTree = "<group>"; };
+		7FD992756E5733795C0B3ED6DD916541 /* SwiftCSSBuilder */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftCSSBuilder; path = SwiftCSSBuilder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80147B64867228B0DBF92042B9C00BDD /* Pods-SwiftCSSBuilder_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftCSSBuilder_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		858379C247E64735A504E8FCA95E4FAE /* Pods-SwiftCSSBuilder_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftCSSBuilder_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9151C5ACA7FE6A90EFD41C0C23AAB590 /* Pods-SwiftCSSBuilder_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftCSSBuilder_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		96227A563952331226D67430DDF3972F /* Pods-SwiftCSSBuilder_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftCSSBuilder_Tests-Info.plist"; sourceTree = "<group>"; };
+		973298F1EC0B3B05C7686B7278ECDC2D /* Property.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Property.swift; path = SwiftCSSBuilder/Classes/Property.swift; sourceTree = "<group>"; };
+		9B2B9B40B80CCB53282626E966B74A52 /* SwiftCSSBuilder.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwiftCSSBuilder.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2DF8E86986556E0EEC56AD2950FB3C5 /* Pods-SwiftCSSBuilder_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftCSSBuilder_Example-dummy.m"; sourceTree = "<group>"; };
+		B280591CA40A49BFF614D7AC2605B7ED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C3B767ABF5A40B22DC65971AD524E717 /* SwiftCSSBuilder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftCSSBuilder.release.xcconfig; sourceTree = "<group>"; };
+		C9B52961E63E374E08F4E4F7F2AAC920 /* SwiftCSSBuilder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftCSSBuilder-umbrella.h"; sourceTree = "<group>"; };
+		CCAE34D4A86CC1907D8AE17F71D8E320 /* Pods-SwiftCSSBuilder_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SwiftCSSBuilder_Example"; path = Pods_SwiftCSSBuilder_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F65F6C436E85D3AC9C39D3C12F20F900 /* Pods-SwiftCSSBuilder_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftCSSBuilder_Example-Info.plist"; sourceTree = "<group>"; };
+		FFCF1A2406574E6D1CBA70314E29D5CA /* Pods-SwiftCSSBuilder_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftCSSBuilder_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03F160296B6236EB4443D61F16E4CAA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				976FFE11B62F55A5BAD02606489F643A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21821687A070247359F2A73D5F683894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9C1F71D42D83CBBB378F2D1E145F39 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95EA9E58636C0DD7788121ADF5A71209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0605841236F34668F0944E1C014FC6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		059514DAC1605F16B38D14604FC0C57F /* Pods-SwiftCSSBuilder_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				202240E05AF3200541CBF5C677427C63 /* Pods-SwiftCSSBuilder_Tests.modulemap */,
+				858379C247E64735A504E8FCA95E4FAE /* Pods-SwiftCSSBuilder_Tests-acknowledgements.markdown */,
+				288780B310910AF59364DF6CD6766BF3 /* Pods-SwiftCSSBuilder_Tests-acknowledgements.plist */,
+				611C346A40FFC5691A180C9110FF68FD /* Pods-SwiftCSSBuilder_Tests-dummy.m */,
+				96227A563952331226D67430DDF3972F /* Pods-SwiftCSSBuilder_Tests-Info.plist */,
+				4B86ED41E53C96212EF06191D836A453 /* Pods-SwiftCSSBuilder_Tests-umbrella.h */,
+				69447B981E3E1696238DA5B09C06DA25 /* Pods-SwiftCSSBuilder_Tests.debug.xcconfig */,
+				34A60C577CEF15B76A012847C797DEE4 /* Pods-SwiftCSSBuilder_Tests.release.xcconfig */,
+			);
+			name = "Pods-SwiftCSSBuilder_Tests";
+			path = "Target Support Files/Pods-SwiftCSSBuilder_Tests";
+			sourceTree = "<group>";
+		};
+		05B9320AA4DD06655A9021A7B003B8CD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C77B3486F9FCFD312A917B679E5F1051 /* Pods-SwiftCSSBuilder_Example */,
+				059514DAC1605F16B38D14604FC0C57F /* Pods-SwiftCSSBuilder_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2F6E0F1A3DCD379544CA839D23830E1B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				16840769BBB7BFF144442C4F325E88DE /* SwiftCSSBuilder.modulemap */,
+				25F24B314AD413D560F3AC1D5A85E2B9 /* SwiftCSSBuilder-dummy.m */,
+				7E8CA1921547BF55498F9AAA26430D6D /* SwiftCSSBuilder-Info.plist */,
+				7555D05E7E0C78CF39B9FB150CFF49CB /* SwiftCSSBuilder-prefix.pch */,
+				C9B52961E63E374E08F4E4F7F2AAC920 /* SwiftCSSBuilder-umbrella.h */,
+				4F0548E5CEAE96210F26BE5E5C6EAF2D /* SwiftCSSBuilder.debug.xcconfig */,
+				C3B767ABF5A40B22DC65971AD524E717 /* SwiftCSSBuilder.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SwiftCSSBuilder";
+			sourceTree = "<group>";
+		};
+		526C5D27AFFBF155789A6618D97666F4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF71CBB8E680291D01BAC2833BE6623E /* SwiftCSSBuilder */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BF71CBB8E680291D01BAC2833BE6623E /* SwiftCSSBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				6F2E12C0240D32DE3C0F3C72D98D4059 /* Namespace.swift */,
+				973298F1EC0B3B05C7686B7278ECDC2D /* Property.swift */,
+				2F8E494EC5ABC21190BC3E8F10EB3FE5 /* Selectors.swift */,
+				058547C9E586D96C494C921CCFA1FBF0 /* Style.swift */,
+				3A2933FB617F45E7E485CAF04460CB0D /* Stylesheet.swift */,
+				25BDA7C572B77856D155524F420D25D5 /* UIColor+hex.swift */,
+				D9AFF66ED2A60775A576655E7E128B95 /* Pod */,
+				2F6E0F1A3DCD379544CA839D23830E1B /* Support Files */,
+			);
+			name = SwiftCSSBuilder;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C77B3486F9FCFD312A917B679E5F1051 /* Pods-SwiftCSSBuilder_Example */ = {
+			isa = PBXGroup;
+			children = (
+				18F8438AF229874A5382CFDB878D5395 /* Pods-SwiftCSSBuilder_Example.modulemap */,
+				9151C5ACA7FE6A90EFD41C0C23AAB590 /* Pods-SwiftCSSBuilder_Example-acknowledgements.markdown */,
+				80147B64867228B0DBF92042B9C00BDD /* Pods-SwiftCSSBuilder_Example-acknowledgements.plist */,
+				A2DF8E86986556E0EEC56AD2950FB3C5 /* Pods-SwiftCSSBuilder_Example-dummy.m */,
+				37E92D127EA52227888C54AE0E62675C /* Pods-SwiftCSSBuilder_Example-frameworks.sh */,
+				F65F6C436E85D3AC9C39D3C12F20F900 /* Pods-SwiftCSSBuilder_Example-Info.plist */,
+				4C0356EDA3CA16E63D40FC61CA92816E /* Pods-SwiftCSSBuilder_Example-umbrella.h */,
+				FFCF1A2406574E6D1CBA70314E29D5CA /* Pods-SwiftCSSBuilder_Example.debug.xcconfig */,
+				3538E69E7748FC79CB17E371D06980F8 /* Pods-SwiftCSSBuilder_Example.release.xcconfig */,
+			);
+			name = "Pods-SwiftCSSBuilder_Example";
+			path = "Target Support Files/Pods-SwiftCSSBuilder_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				526C5D27AFFBF155789A6618D97666F4 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				DB1E4C403CE594E3F37BB444CF8655C5 /* Products */,
+				05B9320AA4DD06655A9021A7B003B8CD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9AFF66ED2A60775A576655E7E128B95 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6D3A4DAE0EFCE34D8E0BA6C6B7280DDC /* LICENSE */,
+				B280591CA40A49BFF614D7AC2605B7ED /* README.md */,
+				9B2B9B40B80CCB53282626E966B74A52 /* SwiftCSSBuilder.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		DB1E4C403CE594E3F37BB444CF8655C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCAE34D4A86CC1907D8AE17F71D8E320 /* Pods-SwiftCSSBuilder_Example */,
+				000D39803F7F511B31CFD6F231704F61 /* Pods-SwiftCSSBuilder_Tests */,
+				7FD992756E5733795C0B3ED6DD916541 /* SwiftCSSBuilder */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2AA2F5D061266FE9B32E4118290190BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1730F9FDB02D099407937B48CC2FD42 /* SwiftCSSBuilder-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4467D3E547F95D526A487E06035CCFA0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB8A72869C5F522C9311FDCFFE840AE /* Pods-SwiftCSSBuilder_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8713BBAD93E4B2908BB399AF88551AC7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504AA73F9E46183CBA4DFD7D7C53A012 /* Pods-SwiftCSSBuilder_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6E6947BB051FF8A389F9BAFAAC35BEBA /* Pods-SwiftCSSBuilder_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D46872D4725183FB596FA096B6504B8 /* Build configuration list for PBXNativeTarget "Pods-SwiftCSSBuilder_Tests" */;
+			buildPhases = (
+				4467D3E547F95D526A487E06035CCFA0 /* Headers */,
+				B8964462F690E665A27198328F73F8CF /* Sources */,
+				21821687A070247359F2A73D5F683894 /* Frameworks */,
+				917038D10817AC611DFB2CA18277D1FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C73993082618D0D4BC8418F725E958C1 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftCSSBuilder_Tests";
+			productName = Pods_SwiftCSSBuilder_Tests;
+			productReference = 000D39803F7F511B31CFD6F231704F61 /* Pods-SwiftCSSBuilder_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		CBE6D70E8704B4D620A555CAFBEB4BE4 /* SwiftCSSBuilder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DF3AB70021D79E6E3B9B6D03B57C80D /* Build configuration list for PBXNativeTarget "SwiftCSSBuilder" */;
+			buildPhases = (
+				2AA2F5D061266FE9B32E4118290190BB /* Headers */,
+				A7EA3AA4DBF03C1A086A4B0E2DFD7552 /* Sources */,
+				95EA9E58636C0DD7788121ADF5A71209 /* Frameworks */,
+				74D185F88953D2ABD4448BBFDEDBE239 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftCSSBuilder;
+			productName = SwiftCSSBuilder;
+			productReference = 7FD992756E5733795C0B3ED6DD916541 /* SwiftCSSBuilder */;
+			productType = "com.apple.product-type.framework";
+		};
+		E3EFF09E2D0F65FF3B45B4C981FAE885 /* Pods-SwiftCSSBuilder_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7F4674186BA10BA6729227FFDCBB819 /* Build configuration list for PBXNativeTarget "Pods-SwiftCSSBuilder_Example" */;
+			buildPhases = (
+				8713BBAD93E4B2908BB399AF88551AC7 /* Headers */,
+				43A610A4CA472B09753EF5CA58A274AF /* Sources */,
+				03F160296B6236EB4443D61F16E4CAA1 /* Frameworks */,
+				DAC96687253706C85400A5A56817A92F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F0931870AA9357B3292B57D57E0B723 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftCSSBuilder_Example";
+			productName = Pods_SwiftCSSBuilder_Example;
+			productReference = CCAE34D4A86CC1907D8AE17F71D8E320 /* Pods-SwiftCSSBuilder_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DB1E4C403CE594E3F37BB444CF8655C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3EFF09E2D0F65FF3B45B4C981FAE885 /* Pods-SwiftCSSBuilder_Example */,
+				6E6947BB051FF8A389F9BAFAAC35BEBA /* Pods-SwiftCSSBuilder_Tests */,
+				CBE6D70E8704B4D620A555CAFBEB4BE4 /* SwiftCSSBuilder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74D185F88953D2ABD4448BBFDEDBE239 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		917038D10817AC611DFB2CA18277D1FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC96687253706C85400A5A56817A92F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43A610A4CA472B09753EF5CA58A274AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36725745D3F420320075B298DF32F691 /* Pods-SwiftCSSBuilder_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7EA3AA4DBF03C1A086A4B0E2DFD7552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E66A0AE1336B90C62F37248F1EB14961 /* Namespace.swift in Sources */,
+				6DA5C32325B146FB737CE4385DC99A25 /* Property.swift in Sources */,
+				5C09CD4DD2C23073E51B2815240B9939 /* Selectors.swift in Sources */,
+				A49F09D060E430F4908A24D58F511A6E /* Style.swift in Sources */,
+				06089D352EA7FABA6B46F53603EA10B3 /* Stylesheet.swift in Sources */,
+				2B2239CFDB3E493179C7E17B833AD0F8 /* SwiftCSSBuilder-dummy.m in Sources */,
+				4C5CDA0383AF02341E8C045FDE5AF910 /* UIColor+hex.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8964462F690E665A27198328F73F8CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42709543198F0CEA5AD7FD9C0FD115C7 /* Pods-SwiftCSSBuilder_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F0931870AA9357B3292B57D57E0B723 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftCSSBuilder;
+			target = CBE6D70E8704B4D620A555CAFBEB4BE4 /* SwiftCSSBuilder */;
+			targetProxy = 0C16569821B59302A9FE669AAF5A1C6B /* PBXContainerItemProxy */;
+		};
+		C73993082618D0D4BC8418F725E958C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SwiftCSSBuilder_Example";
+			target = E3EFF09E2D0F65FF3B45B4C981FAE885 /* Pods-SwiftCSSBuilder_Example */;
+			targetProxy = E661A3A65B59B9CA777B832715949057 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17430E13510BCCDA4D0095F308F6A5D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F0548E5CEAE96210F26BE5E5C6EAF2D /* SwiftCSSBuilder.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftCSSBuilder/SwiftCSSBuilder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftCSSBuilder/SwiftCSSBuilder-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftCSSBuilder/SwiftCSSBuilder.modulemap";
+				PRODUCT_MODULE_NAME = SwiftCSSBuilder;
+				PRODUCT_NAME = SwiftCSSBuilder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		38AD97D3E8239825F4781E1E4150BE8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFCF1A2406574E6D1CBA70314E29D5CA /* Pods-SwiftCSSBuilder_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftCSSBuilder_Example/Pods-SwiftCSSBuilder_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftCSSBuilder_Example/Pods-SwiftCSSBuilder_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		80FAE4CC7C335B93C25906C8E765BD57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69447B981E3E1696238DA5B09C06DA25 /* Pods-SwiftCSSBuilder_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftCSSBuilder_Tests/Pods-SwiftCSSBuilder_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftCSSBuilder_Tests/Pods-SwiftCSSBuilder_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B2B1BC7211B7193BC7DB47A1C792A0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34A60C577CEF15B76A012847C797DEE4 /* Pods-SwiftCSSBuilder_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftCSSBuilder_Tests/Pods-SwiftCSSBuilder_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftCSSBuilder_Tests/Pods-SwiftCSSBuilder_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CADAF75E7B9E0CCD1F3A04C3525428E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3538E69E7748FC79CB17E371D06980F8 /* Pods-SwiftCSSBuilder_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftCSSBuilder_Example/Pods-SwiftCSSBuilder_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftCSSBuilder_Example/Pods-SwiftCSSBuilder_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F9D5C7903A959D50E8EC38DBC714DF30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3B767ABF5A40B22DC65971AD524E717 /* SwiftCSSBuilder.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftCSSBuilder/SwiftCSSBuilder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftCSSBuilder/SwiftCSSBuilder-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftCSSBuilder/SwiftCSSBuilder.modulemap";
+				PRODUCT_MODULE_NAME = SwiftCSSBuilder;
+				PRODUCT_NAME = SwiftCSSBuilder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DF3AB70021D79E6E3B9B6D03B57C80D /* Build configuration list for PBXNativeTarget "SwiftCSSBuilder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17430E13510BCCDA4D0095F308F6A5D0 /* Debug */,
+				F9D5C7903A959D50E8EC38DBC714DF30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D46872D4725183FB596FA096B6504B8 /* Build configuration list for PBXNativeTarget "Pods-SwiftCSSBuilder_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80FAE4CC7C335B93C25906C8E765BD57 /* Debug */,
+				8B2B1BC7211B7193BC7DB47A1C792A0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7F4674186BA10BA6729227FFDCBB819 /* Build configuration list for PBXNativeTarget "Pods-SwiftCSSBuilder_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38AD97D3E8239825F4781E1E4150BE8A /* Debug */,
+				CADAF75E7B9E0CCD1F3A04C3525428E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

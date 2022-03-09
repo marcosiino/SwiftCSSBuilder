@@ -1,0 +1,16 @@
+PODS:
+  - SwiftCSSBuilder (0.1.0)
+
+DEPENDENCIES:
+  - SwiftCSSBuilder (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftCSSBuilder:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftCSSBuilder: 30f12185c758857f7843d4342228469e9390344e
+
+PODFILE CHECKSUM: 810275604e3eeaf8e4dd555f48ac6f7f512ed683
+
+COCOAPODS: 1.11.2

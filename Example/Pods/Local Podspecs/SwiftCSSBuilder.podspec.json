@@ -1,0 +1,22 @@
+{
+  "name": "SwiftCSSBuilder",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftCSSBuilder.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Marco Siino/SwiftCSSBuilder",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Marco Siino": "marco.siino@iquii.com"
+  },
+  "source": {
+    "git": "https://github.com/Marco Siino/SwiftCSSBuilder.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "SwiftCSSBuilder/Classes/**/*"
+}
