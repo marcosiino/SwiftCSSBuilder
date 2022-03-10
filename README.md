@@ -204,6 +204,47 @@ Translates to:
 max-height: 50%;
 ```
 
+## Advanced CSS selectors
+
+The following properties are applied to all div elements which has the myCuteDiv html class:
+
+```swift
+let style = CSS.Stylesheet()
+    .with(CSS.Style(for: .div.withClass("myCuteDiv")
+            .property(/* Your property */)
+            .property(/* Your property */)
+```
+
+
+The following properties are applied to all p elements which are childs of div elements with class "myCuteDiv":
+
+```swift
+let style = CSS.Stylesheet()
+    .with(CSS.Style(for: .p.childOf(.div.withClass("myCuteDiv")))
+            .property(/* Your property */)
+            .property(/* Your property */)
+```
+
+The following properties are applied to all a elements with :hover pseudoclass:
+
+```swift
+let style = CSS.Stylesheet()
+    .with(CSS.Style(for: .a.withPseudoClass("hover"))
+            .property(/* Your property */)
+            .property(/* Your property */)
+```
+
+The following properties are applied to all input elements with name attribute equal to "username":
+
+```swift
+let style = CSS.Stylesheet()
+    .with(CSS.Style(for: .custom("input").withAttribute("name", value: "username"))
+            .property(/* Your property */)
+            .property(/* Your property */)
+```
+
+... And you can obviously combine them together for even complex selectors!
+
 ## Example Project
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
